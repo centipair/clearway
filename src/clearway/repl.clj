@@ -38,7 +38,7 @@
 (defn start-immutant-server [args]
   (web/run
     app
-    args))
+    {:virtual-host "clearwayfacility.com" :path "/"}))
 
 (defn -main [& {:as args}]
   (start-immutant-server args))

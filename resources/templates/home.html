@@ -1,76 +1,39 @@
 {% extends "templates/base.html" %}
 {% block content %}
 <!-- Header Carousel -->
-<header id="myCarousel" class="carousel slide">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-  </ol>
-  
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <div class="fill" style="background-image:url('/img/logo.jpg');"></div>
-      <div class="carousel-caption">
-        <h2></h2>
-      </div>
-    </div>
-    <div class="item">
-      <div class="fill" style="background-image:url('/img/cleaning.jpg');"></div>
-      <div class="carousel-caption">
-        <h2>Coorporate Repairs and Maintenance</h2>
-      </div>
-    </div>
-    <div class="item">
-      <div class="fill" style="background-image:url('/img/movers.jpg');"></div>
-      <div class="carousel-caption">
-        <h2>Packing and shifting</h2>
-      </div>
-    </div>
-    <div class="item">
-      <div class="fill" style="background-image:url('/img/facilityservices-slider1.jpg');"></div>
-      <div class="carousel-caption">
-        <h2>House Keeping</h2>
-      </div>
-    </div>
-    <div class="item">
-      <div class="fill" style="background-image:url('/img/security.jpg');"></div>
-      <div class="carousel-caption">
-        <h2>Security Services</h2>
-      </div>
-    </div>
-    
-  </div>
-  
-  <!-- Controls -->
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="icon-prev"></span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="icon-next"></span>
-  </a>
-</header>
-
+<div class="container">
+ <div class="row">
+   <div class="col-md-9">
+     <img class="img-responsive img-rounded" src="/img/banner.jpg" alt="">
+   </div>
+   <!-- /.col-md-8 -->
+   <div class="col-md-3">
+     <h1>Call Now!</h1>
+     <h4><i class="fa fa-fw fa-phone-square"></i> 0484 3197453</h4>
+     <h4><i class="fa fa-fw fa-mobile"></i> 9020205091</h4>
+     <h4><i class="fa fa-fw fa-mobile"></i> 9020205092</h4>
+     <h4><i class="fa fa-fw fa-envelope"></i> cfsekm@gmail.com</h4>
+     <a class="btn btn-primary btn-lg" href="#">Call to Action!</a>
+   </div>
+   <!-- /.col-md-4 -->
+ </div>
+</div>
 <!-- Page Content -->
 <div class="container">
   <!-- Marketing Icons Section -->
   <div class="row">
     <div class="col-lg-12">
       <h1 class="page-header">
-        Welcome to Modern Business
+        Master Key Solutions to Daily Needs. Just a Call Away
       </h1>
     </div>
     <div class="col-md-4">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
+          <h4><i class="fa fa-fw fa-home"></i> Housekeeping</h4>
         </div>
         <div class="panel-body">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+          <p>We undertake onetime / regular housekeeping service at offices, godown, flats, villas etc... using modern machineries and equipments with trained personnel.</p>
           <a href="#" class="btn btn-default">Learn More</a>
         </div>
       </div>
@@ -78,10 +41,10 @@
     <div class="col-md-4">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h4><i class="fa fa-fw fa-gift"></i> Free &amp; Open Source</h4>
+          <h4><i class="fa fa-fw fa-group"></i> Labour Contract</h4>
         </div>
         <div class="panel-body">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+          <p>We are experts in payroll management for your esteemed organisation. We also provide labour requirements on daily, weekly and monthly basis.</p>
           <a href="#" class="btn btn-default">Learn More</a>
         </div>
       </div>
@@ -89,53 +52,57 @@
     <div class="col-md-4">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h4><i class="fa fa-fw fa-compass"></i> Easy to Use</h4>
+          <h4><i class="fa fa-fw fa-wrench"></i> Repairs &amp; Maintenance</h4>
         </div>
         <div class="panel-body">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+          <p>No more leaks or unserviceable fans / lights at your office / residence.  Our expert technicians are a phone call away. Call us imemediately.</p>
           <a href="#" class="btn btn-default">Learn More</a>
         </div>
       </div>
     </div>
   </div>
   <!-- /.row -->
-  <!-- Portfolio Section -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">Portfolio Heading</h2>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="portfolio-item.html">
-                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
-                </a>
-            </div>
+
+  <div class="row">
+    
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4><i class="fa fa-fw fa-truck"></i> Packing &amp; Shifting</h4>
         </div>
-        <!-- /.row -->
+        <div class="panel-body">
+          <p>Shifting house should no more be a headache.
+	    Our expert personnel will pack and shift your house even at nights to suite your convenience.</p>
+          <a href="#" class="btn btn-default">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4><i class="fa fa-fw fa-edit"></i> Collection Profiling</h4>
+        </div>
+        <div class="panel-body">
+          <p>We undertake CAF (Customer Application Form) management, Data Entry System, Call Centres and Collection Processes.</p>
+          <a href="#" class="btn btn-default">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4><i class="fa fa-fw fa-building"></i> Property Management</h4>
+        </div>
+        <div class="panel-body">
+          <p>Leave your property to our safe hands which makes you comfort.  We will be responsible for cleaning, gardening, electrical and plumbing, security etc...</p>
+          <a href="#" class="btn btn-default">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.row -->
+
+ 
 </div>
 
 {% endblock %}
