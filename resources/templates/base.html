@@ -15,7 +15,7 @@
   <link href="css/bootstrap.css" rel="stylesheet">
   
   <!-- Custom CSS -->
-  <link href="css/modern-business.css" rel="stylesheet">
+  <!--<link href="css/modern-business.css" rel="stylesheet">-->
   
   <!-- Custom Fonts -->
   <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -25,7 +25,7 @@
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/lib/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
   
 </head>
@@ -51,9 +51,9 @@
           <li>
             <a href="/about">About</a>
           </li>
-          <li>
+          <!--<li>
             <a href="/services">Services</a>
-          </li>
+          </li>-->
           <li>
             <a href="/contact">Contact</a>
           </li>
@@ -67,23 +67,44 @@
     
   {% block content %}
   {% endblock %}
- <div class="container">
-    <footer>
-    <div class="row">
-      <div class="col-lg-12">
-        <p>Copyright &copy; Clearway Facility Services 2014</p>
-      </div>
-    </div>
-  </footer>
+ <div class="container-fluid" style="height:300px;background-color:#282828;color:#ccc">
+   <div class="container">
+     <footer>
+       <div class="row">
+	 <div class="col-md-4">
+           <p>Copyright &copy; Clearway Facility Services 2014</p>
+	 </div>
+	 <div class="col-md-4">
+	   Contact Us
+	   <h4><i class="fa fa-fw fa-phone-square"></i> 0484 3197453</h4>
+	   <h4><i class="fa fa-fw fa-mobile"></i> 9020205091</h4>
+	   <h4><i class="fa fa-fw fa-mobile"></i> 9020205092</h4>
+	 </div>
+	 <div class="col-md-4">
+	   <h3>Corporate Address</h3>
+	   <p>
+	     Clearway Facility Services
+	   </p>
+	   <p>Parambithara Road</p>
+	   <p>Cochin-36</p>
+	   <p>Kerala, India</p>
+	   <p><i class="fa fa-envelope"></i> 
+             <a href="mailto:cfsekm@gmail.com">cfsekm@gmail.com</a>
+	   </p>
+	   <p><i class="fa fa-clock-o"></i> Monday - Saturday : 9:00 AM - 5:00 PM</p>
+	 </div>
+       </div>
+     </footer>
+   </div>
  </div>
   <!-- scripts and styles -->
-   
+  <!--
     <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
     <script src="/material/js/ripples.min.js"></script>
     <script src="/material/js/material.min.js"></script>
-
+-->
     <script type="text/javascript">
       var context = "{{servlet-context}}";
     </script>
